@@ -81,9 +81,11 @@
   border-top: 2px solid #331a00 ;
   height:100px;
   display : flex;
+  flex-direction: column;
   justify-content: center;
   align-items:center;
   background: white;
+  padding-top: 20px;
 }
 .cgu{
 color:#331a00;
