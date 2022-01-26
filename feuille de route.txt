@@ -6,16 +6,18 @@ header: bandeau fixe, logo // 2 liens ancres // liens réseaux sociaux: insta fb
 
 
 
-Notre mission: // photo sur le coté.
+Notre mission: // photo sur le coté gauche.
 
 Nous le savons, une forêt primaire c’est la meilleure réponse aux exigences de la régulation du climat, au stockage de carbone et donc au maintien de la fertilité des sols. 
 
 Nous avons pour mission de faire la promotion de ce type d'initiative pour que l'on retrouve un environnement durable et surtout vivable dans notre département.
++Lorem Ipsum.
 
-
-Qui sommes-nous? // photo sur le coté.
+Qui sommes-nous? // photo sur le coté droit.
 
 Basés au nord de Paris dans le département de l'oise, nous sommes fiers de nos forêts et voulons faire perdurer ce patrimoine Français pour que les générations à venir puissent en profiter à leur tour.
++Lorem Ipsum.
+
 
 Photo de fond parallaxe.
 Modale: RGPD! 

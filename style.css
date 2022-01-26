@@ -67,6 +67,34 @@
 }
 
 /*section*/
-
+.parallax{
+  background-image: url("./Pictures/Background.jpg");
+  min-height: 1000px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*footer*/
+.bottom{
+  border-top: 2px solid #331a00 ;
+  height:100px;
+  display : flex;
+  justify-content: center;
+  align-items:center;
+  background: white;
+}
+.cgu{
+color:#331a00;
+font-size: 1.2em;
+}
+.retour-haut{
+  position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 99;
+border: none;
+outline: none;
+size:0.02vh;
+}
