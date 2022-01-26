@@ -2,6 +2,11 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+html{
+  margin: 0;
+ padding: 0;
+}
+
 
 /*header */
 
@@ -17,9 +22,11 @@
 }
 .img:hover{
   transform: scale(1.05);
+  transition: transform 0.5s  ;
 }
 .lien-ev:hover,.social-logo:hover{
   transform: scale(1.1);
+  transition: transform 0.5s  ;
 }
 
 .logo{
@@ -60,6 +67,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:200px;
 }
 .social-logo{
   text-decoration: none;
@@ -100,3 +108,5 @@ border: none;
 outline: none;
 size:0.02vh;
 }
+
+/* Media queries */
