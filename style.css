@@ -82,6 +82,27 @@ html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.text{
+  color: white;
+font-size: 1.6em;
+width: 50%;
+text-shadow: 2px 2px black;
+font-weight: bold;
+background-color:  rgba(20, 20, 20, 0.6);
+border-radius:15px;
+padding: 10px;
+}
+
+.hr{
+color: white;
+height:6px;
 }
 
 /*footer*/
