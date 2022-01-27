@@ -24,7 +24,7 @@ html{
   transform: scale(1.05);
   transition: transform 0.5s  ;
 }
-.lien-ev:hover,.social-logo:hover{
+.lien-ev:hover,.social-logo:hover,.card:hover{
   transform: scale(1.1);
   transition: transform 0.5s  ;
 }
@@ -98,12 +98,6 @@ background-color:  rgba(20, 20, 20, 0.6);
 border-radius:15px;
 padding: 10px;
 }
-
-.hr{
-color: white;
-height:6px;
-}
-
 
 
 /*footer*/
