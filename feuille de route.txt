@@ -1,42 +1,7 @@
-Association de développement de la forêt primaire dans l'oise.
-
-///Page1:
-
-header: bandeau fixe, logo // 2 liens ancres // liens réseaux sociaux: insta fb twitter.
 
 
-
-Notre mission: // photo sur le coté gauche.
-
-Nous le savons, une forêt primaire c’est la meilleure réponse aux exigences de la régulation du climat, au stockage de carbone et donc au maintien de la fertilité des sols. 
-
-Nous avons pour mission de faire la promotion de ce type d'initiative pour que l'on retrouve un environnement durable et surtout vivable dans notre département.
-+Lorem Ipsum.
-
-Qui sommes-nous? // photo sur le coté droit.
-
-Basés au nord de Paris dans le département de l'oise, nous sommes fiers de nos forêts et voulons faire perdurer ce patrimoine Français pour que les générations à venir puissent en profiter à leur tour.
-+Lorem Ipsum.
-
-
-Photo de fond parallaxe.
-Modale: RGPD! 
-footer: CGU lien+ ajouter Copyright 2022 en bas des 2 pages.
 MQueries: mobile/tablette /pc.
-Garder le bandeau en haut.
-Bouton pour remonter tout en haut de la page.
-
-
-
-
-
-
-/// Page 2:
-Les prochains évènements // cards bootstrap:
-
-* Le dimanche 17 avril 2022: Profitons des pacques ( pour faire découvrir les essences présentent dans notre département et sensibiliser les jeunes générations).
-* Le dimanche 5 Juin 2022 : Sortie pédagogique de sensibilisation en forêt pour que les nouvelles générations découvrent notre patrimoine.
-* Le dimanche 31 Juillet 2022: la forêt au bord de l'eau ( Sortie pédagogique de sensibilisation en forêt proche de la mer pour comprendre l'intérêt de la diversité des essences).
+Modale: RGPD! 
 
 
 

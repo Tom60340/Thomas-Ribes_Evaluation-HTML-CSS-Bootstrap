@@ -81,12 +81,11 @@ html{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  background-size: cover;  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text{
@@ -104,6 +103,8 @@ padding: 10px;
 color: white;
 height:6px;
 }
+
+
 
 /*footer*/
 .bottom{
@@ -131,3 +132,17 @@ size:0.02vh;
 }
 
 /* Media queries */
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+}
+
