@@ -1,8 +1,3 @@
 
 
-MQueries: mobile/tablette /pc.
-Modale: RGPD! 
-
-
-
-
+MQueries: Mobile/Tablette 576px /Desktop 768 px.

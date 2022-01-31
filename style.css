@@ -13,8 +13,10 @@ html{
 .top{
   border-bottom: 2px solid #331a00;
   display : flex;
-  justify-content: space-around;
   background: white;
+  flex-direction : column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .img{
@@ -33,6 +35,7 @@ html{
   display:flex;
   flex-direction: column;
   align-items: center;
+  order: 0;
 }
 
 .logo-text{
@@ -49,6 +52,7 @@ html{
   height: 5em;
   width: 200px;
   align-self: center;
+  order:1;
 }
 .lien-ev{
   font-size: 1.5em;
@@ -68,6 +72,9 @@ html{
   justify-content: center;
   align-items: center;
   width:200px;
+  order:2;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .social-logo{
   text-decoration: none;
@@ -91,7 +98,7 @@ html{
 .text{
   color: white;
 font-size: 1.6em;
-width: 50%;
+width: 100vw;
 text-shadow: 2px 2px black;
 font-weight: bold;
 background-color:  rgba(20, 20, 20, 0.6);
@@ -114,6 +121,7 @@ padding: 10px;
 .cgu{
 color:#331a00;
 font-size: 1.2em;
+text-align : center;
 }
 .retour-haut{
   position: fixed;
@@ -127,16 +135,45 @@ size:0.02vh;
 
 /* Media queries */
 
-/* For mobile phones: */
+/* Pour mobile */
 [class*="col-"] {
-  width: 100%;
+  width: 100%; 
 }
 
 @media only screen and (min-width: 576px) {
-  /* For tablets: */
+  /*Pour tablettes: */
+  .top{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .social{
+    width:100vw;
+  }
+  .logo{
+    order:0;
+  }
+  .ev-container{
+    order:1;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+@media only screen and (min-width: 992px) {
+  /* Pour PC de bureau */
+  .top{
+    flex-direction: row;
+  }
+  .ev-container{
+    order:0;
+  }
+  .logo{
+    order:1;
+  }
+  .social{
+    order:2;
+    width: auto;
+  }
+  .text{
+    width:80vw;
+  }
 }
 
